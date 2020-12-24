@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+body {
+    background: rgb(230, 230, 230);
+}
