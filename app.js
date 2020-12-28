@@ -1,6 +1,5 @@
-const names = ['Tim', 'Jeremy', 'John', 'Kyle'];
+let myname = document.getElementById('name');
 
-// this is a variable
-const numberOfPeople = names.length;
-
-console.log(numberOfPeople);
+myname.onclick = function() {
+    myname.style.display = 'none';
+}

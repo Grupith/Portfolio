@@ -24,6 +24,7 @@ h2 {
     font-weight: 700;
     margin-left: 5%;
     word-spacing: 0.2rem;
+    margin-bottom: 2rem;
 }
 
 header {
@@ -87,22 +88,68 @@ h3 {
     text-align: center;
 }
 .cardContainer {
-    display:flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     justify-content: center;
     margin-top: 6rem;
-    justify-content: space-around;
+    
 }
 
 .card1 {
-    display: flex;
-    border: 2px solid white;
-    height: 10rem;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 1rem;
+    
 }
-.card2 {
-    display: flex;
-    border: 2px solid white;
+
+.projectImage {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    border-radius: 1rem;
 }
-.card3 {
+
+.projectInfo {
     display: flex;
-    border: 2px solid white;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.projectTitle {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+footer {
+    background-color: rgb(154, 31, 64);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-top: 10rem;
+    font-weight: 300;
+}
+
+.button {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 6rem;
+    background-color: rgb(154, 31, 64);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button2 {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1rem;
+    background-color: rgb(154, 31, 64);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
 }
