@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +7,31 @@
 }
 
 h1 {
-    padding-top: 50px;
-    text-align: center;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 5%;
+    margin-top: 10%;
     font-size: 4rem;
+    font-weight: 700;
+    word-spacing: 0.2rem;
 }
 
-body {
-    background: rgb(230, 230, 230);
+h2 {
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-left: 5%;
+    word-spacing: 0.2rem;
+}
+
+header {
+    background-color: rgb(245, 245, 245);
+    height: 3em;
+}
+
+.nameColor {
+    color: rgb(154, 31, 64);
+    word-spacing: 0.2rem;
+    padding-left: 1.1rem;
 }
