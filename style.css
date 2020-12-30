@@ -41,6 +41,14 @@ header {
     height: 3em;
 }
 
+<<<<<<< HEAD
+=======
+.nameColor {
+    color: rgb(154, 31, 64);
+    word-spacing: 0.2rem;
+}
+
+>>>>>>> a361f225fbd1b9c54f9d5b84b880d7b2a3f09a33
 .navLocation {
     display: flex;
     font-size: 1.5rem;
@@ -82,22 +90,30 @@ h3 {
 .cardContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+<<<<<<< HEAD
     gap: 5px;
     justify-content: center;
     margin-top: 6rem;
     margin-bottom: 30rem;
     
+=======
     grid-template-rows: 1fr;
     gap: 20px;
     justify-content: center;
     margin-top: 6rem;
+>>>>>>> a361f225fbd1b9c54f9d5b84b880d7b2a3f09a33
 }
 
 .card1 {
     border: 3px solid white;
     border-radius: 10px;
+<<<<<<< HEAD
+    margin: 2rem;
+    
+=======
     margin: 1rem;
 
+>>>>>>> a361f225fbd1b9c54f9d5b84b880d7b2a3f09a33
 }
 
 .projectImage {
@@ -151,6 +167,7 @@ footer {
     padding: 10px;
 }
 
+<<<<<<< HEAD
 .aboutMePage {
     background-color: white;
 }
@@ -158,3 +175,15 @@ footer {
 .aboutMeTitle {
     color:rgb(154, 31, 64);
 }
+=======
+@media (max-width: 600px) {
+    .cardContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);;
+    }
+
+    .introTitle > span {
+        display: block;
+    }
+}
+>>>>>>> a361f225fbd1b9c54f9d5b84b880d7b2a3f09a33
