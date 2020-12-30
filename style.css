@@ -19,12 +19,6 @@ h1 {
     font-weight: 700;
     word-spacing: 0.2rem;
 }
-h1::after {
-    display: flex;
-    content: "Dylan";
-    padding-left: 18px;
-    color: rgb(154, 31, 64);
-}
 
 h2 {
     display: flex;
