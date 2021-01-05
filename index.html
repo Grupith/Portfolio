@@ -11,7 +11,7 @@
         <ul class='navLocation'>
             <li><a href='#Home'>Home</a></li>
             <li><a href='#Projects'>Projects</a></li>
-            <li><a href='#Contact'>Contact Me</a></li>
+            <li><a href='#ContactMe'>Contact Me</a></li>
         </ul>
     </nav>
 </header>
@@ -22,31 +22,44 @@
     <a class='button2' target='_blank'href='https://twitter.com/grupith'>Twitter</a>
 
     <div class='projectsPage' id='Projects'>
-        <h3>Projects</h3>
+        <h3 class='projectPageTitle'>Projects</h3>
         <div class='cardContainer'>
             <div class='card1'>
                 <img class='projectImage' src='/Assets/Portfolio.PNG'></img>
-                <h4 class='projectTitle'>Portfolio Site</h4>
+                <h4 class='cardTitle'>Portfolio Site</h4>
                 <p class='projectInfo'>This is my portfolio website that you are currently on right now! This is my first big project as a self-taught Web Developer. So far, I have only used Html/CSS.</p>
                 <a href='https://grupith.netlify.app' target='_blank' class='cardButton'>Live Project</a>
                 <a href='https://github.com/Grupith/Portfolio' target='_blank' class='cardButton'>View Code</a>
             </div>
-            <div class='card1'>
+             <div class='card1'>
                 <img class='projectImage' src='https://assets-global.website-files.com/583347ca8f6c7ee058111b55/5d96126a9dcc3fe0911ebdec_2GsY2Z-rBOsYK1Zbeh21cdDLMdQxsudnNHefYhaE8zi14KbVAssBg8ZNvxYkQEWW1y5U4YLT0pcEtK80sT9JTQKF7SNtUkhVxAEZMcRr58lEUVX9nbReHqyGUi_PZ31T3sxZ4NJT.png'></img>
-                <h4 class='projectTitle'>Traackr</h4>
-                <p class='projectInfo'>*This is just test text for design of website* Traackr is the system of record for data-driven influencer marketing that marketers use to invest in the right strategies, streamline campaigns, and scale programs.</p>
+                <h4 class='cardTitle'>Traackr</h4>
+                <p class='projectInfo'>*This is just test text for design of website and sample images* Traackr is the system of record for data-driven influencer marketing that marketers use to invest in the right strategies, streamline campaigns, and scale programs.</p>
                 <a href='https://grupith.netlify.app' target='_blank' class='cardButton'>Live Project</a>
                 <a href='https://github.com/Grupith' target='_blank' class='cardButton'>View Code</a>
             </div>
             <div class='card1'>
                 <img class='projectImage' src='https://assets-global.website-files.com/583347ca8f6c7ee058111b55/5d96126a9dcc3fe0911ebdec_2GsY2Z-rBOsYK1Zbeh21cdDLMdQxsudnNHefYhaE8zi14KbVAssBg8ZNvxYkQEWW1y5U4YLT0pcEtK80sT9JTQKF7SNtUkhVxAEZMcRr58lEUVX9nbReHqyGUi_PZ31T3sxZ4NJT.png'></img>
-                <h4 class='projectTitle'>Traackr</h4>
-                <p class='projectInfo'>*This is just test text for design of website* Traackr is the system of record for data-driven influencer marketing that marketers use to invest in the right strategies, streamline campaigns, and scale programs.</p>
+                <h4 class='cardTitle'>Traackr</h4>
+                <p class='projectInfo'>*This is just test text for design of website and sample images* Traackr is the system of record for data-driven influencer marketing that marketers use to invest in the right strategies, streamline campaigns, and scale programs.</p>
                 <a href='https://grupith.netlify.app' target='_blank' class='cardButton'>Live Project</a>
                 <a href='https://github.com/Grupith' target='_blank' class='cardButton'>View Code</a>
             </div>
         </div>
-        
+    </div>
+        <div class="contactMePage" id='ContactMe'>
+            <h3 class='contactMeTitle'>Contact Me</h3>
+            <div class='contactContainer'>
+                <form class ='contactForm' data-netlify='true'>
+                <label for='Name'>Name</label>
+                <input type='text' id='Name' name='contactName'>
+                    <label for='Email'>Email</label>
+                    <input type='text' id='Email' name='contactEmail'>
+                        <label for='contactText'>Text</label>
+                        <input type='text' id='contactText' name='contactInfoText'>
+                        <input type="submit" value="Submit">
+                    </form>
+            </div>
     </div>
  <script src="app.js"></script>
 </body>
