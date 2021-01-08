@@ -10,3 +10,5 @@ Checklist:
 Completed:
     - add view code and view project button in each card
     - Change padding on images for cards
+
+    * This is just test * * Commiting from mac for first time *
