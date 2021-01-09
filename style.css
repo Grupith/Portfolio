@@ -67,6 +67,7 @@ ul li {
 
 .projectsPage {
     margin-top: 30rem;
+    padding-bottom: 8rem;
     background-color: rgb(154, 31, 64);
 }
 
@@ -125,8 +126,10 @@ footer {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 1rem;
+    font-size: 1rem;;
     font-weight: 300;
+    padding-bottom: 0.5rem;
 }
 
 .button {
@@ -137,7 +140,7 @@ footer {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 7px 7px 7px;
 }
 
 .button2 {
@@ -148,7 +151,7 @@ footer {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 7px 7px 7px;
 }
 
 .cardButton {
@@ -165,6 +168,7 @@ footer {
 
 .contactMePage {
     background-color: white;
+    padding-bottom: 1.5rem;
 }
 
 .contactMeTitle {
@@ -172,6 +176,7 @@ footer {
     font-family: 'Ubuntu', sans-serif;
     font-size: 4rem;
     font-weight: 700;
+    margin-top: 1.2rem;
     color: rgb(154, 31, 64);
 }
 
@@ -191,26 +196,37 @@ footer {
     color:rgb(154, 31, 64);
     font-weight: 500;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    width: 50%;
 }
 
 input[type=text] {
     width: 100%;
-    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(154, 31, 64);
+    padding: 0.7rem;
     margin: 1rem;
     box-sizing: border-box;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 2px solid rgb(139, 5, 56);
+    outline: none;     
   }
 
 input[type=submit] {
     font-size: 2rem;
     font-family: 'Ubuntu', sans-serif;
-    padding: 0.5rem;
-    border-radius: 1rem;
+    padding: 0.3rem 0.5rem 0.3rem;
+    margin-top: 1rem;
+    border-radius: 0.6rem;
     color:rgb(154, 31, 64);
     border: 2px solid rgb(154, 31, 64);
+}
 
+input:hover[type=submit] {
+    background-color:rgb(139, 5, 56);
+    color: white;
+    transition: 0.3s;
 }
 
 @media (max-width: 600px) {
